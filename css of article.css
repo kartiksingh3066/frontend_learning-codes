@@ -1,0 +1,59 @@
+
+
+*{
+    background-color: pink;
+    text-align: center;
+}
+.heading{
+    transition-property: all;
+    transition-duration: 2s;
+}
+.heading:hover {
+    background-color: chartreuse;
+    text-decoration: crimson;
+}
+.section{
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+}
+
+.menu{
+    border: solid black;
+    text-decoration: black;
+    background-color: blue;
+    transition: background-color;
+}
+
+#viratkohli{
+    transition-property: all;
+    transition-timing-function: ease-in;
+    transition-duration: 2s;
+}
+#viratkohli:hover{
+    border-color: chartreuse;
+}
+
+.menu:hover{
+    background-color: crimson;
+}
+
+.paragraph{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    transition-property: all;
+    transition-timing-function: ease-out;
+    transition-duration: 1s;
+}
+.paragraph:hover{
+    background-color: hotpink;
+}
+#side{
+    margin-left: 0%;
+}
+
+#click{
+    background-color: blue;
+}
